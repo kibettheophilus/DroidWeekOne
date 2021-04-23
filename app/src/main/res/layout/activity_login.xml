@@ -29,7 +29,7 @@
             android:background="@drawable/white_background"
             android:drawableLeft="@drawable/ic_email"
             android:drawablePadding="10dp"
-            android:hint="Email"
+            android:hint="@string/email"
             android:inputType="textEmailAddress"
             android:padding="15dp"
             android:textColorHint="@color/black" />
@@ -41,7 +41,7 @@
             android:background="@drawable/white_background"
             android:drawableLeft="@drawable/ic_lock"
             android:drawablePadding="10dp"
-            android:hint="Password"
+            android:hint="@string/password"
             android:inputType="textPassword"
             android:padding="15dp"
             android:textColorHint="@color/black" />
@@ -52,7 +52,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="end"
             android:layout_marginRight="20dp"
-            android:text="Forgot Password?"
+            android:text="@string/forgot_password_qn"
             android:textColor="@color/blue"
             android:textSize="20sp"
             android:textStyle="bold" />
@@ -63,7 +63,7 @@
             android:layout_height="wrap_content"
             android:layout_margin="20dp"
             android:background="@drawable/pink_background"
-            android:text="LOGIN"
+            android:text="@string/login"
             app:backgroundTint="@color/pink" />
 
         <TextView
@@ -80,7 +80,7 @@
             android:layout_margin="20dp"
             android:background="@drawable/blue_background"
             android:drawableLeft="@drawable/facebook"
-            android:text="LOGIN WITH FACEBOOK"
+            android:text="@string/login_with_facebook"
             app:backgroundTint="@color/blue"/>
 
         <LinearLayout
@@ -94,7 +94,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Don't have an account?"
+                android:text="@string/don_t_have_an_account"
                 android:textSize="15sp" />
 
             <TextView

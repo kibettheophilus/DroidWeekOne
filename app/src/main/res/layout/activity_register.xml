@@ -25,7 +25,7 @@
             android:layout_marginStart="25dp"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:text="CREATE ACCOUNT"
+            android:text="@string/create_account"
             android:textStyle="bold"
             android:textColor="@color/black"
             android:textSize="18sp"/>
@@ -48,7 +48,7 @@
             android:background="@drawable/white_background"
             android:drawableLeft="@drawable/ic_account"
             android:drawablePadding="10dp"
-            android:hint="FirstName"
+            android:hint="@string/firstname"
             android:inputType="textEmailAddress"
             android:padding="15dp"
             android:textColorHint="@color/black"/>
@@ -62,7 +62,7 @@
             android:background="@drawable/white_background"
             android:drawableLeft="@drawable/ic_account"
             android:drawablePadding="10dp"
-            android:hint="LastName"
+            android:hint="@string/lastname"
             android:inputType="textEmailAddress"
             android:padding="15dp"
             android:textColorHint="@color/black"/>
@@ -76,7 +76,7 @@
             android:background="@drawable/white_background"
             android:drawableLeft="@drawable/ic_email"
             android:drawablePadding="10dp"
-            android:hint="Email"
+            android:hint="@string/email"
             android:inputType="textEmailAddress"
             android:padding="15dp"
             android:textColorHint="@color/black"/>
@@ -90,7 +90,7 @@
             android:background="@drawable/white_background"
             android:drawableLeft="@drawable/ic_lock"
             android:drawablePadding="10dp"
-            android:hint="Password"
+            android:hint="@string/password"
             android:inputType="textEmailAddress"
             android:padding="15dp"
             android:textColorHint="@color/black"/>
@@ -104,7 +104,7 @@
             android:background="@drawable/white_background"
             android:drawableLeft="@drawable/ic_lock"
             android:drawablePadding="10dp"
-            android:hint="Confirm Password"
+            android:hint="@string/confirm_password"
             android:inputType="textEmailAddress"
             android:padding="15dp"
             android:textColorHint="@color/black"/>
@@ -117,7 +117,7 @@
             android:layout_marginStart="10dp"
             android:layout_marginEnd="10dp"
             android:layout_marginTop="10dp"
-            android:text="SIGN UP"
+            android:text="@string/sign_up_btn"
             app:backgroundTint="@color/pink"/>
     </LinearLayout>
 
@@ -132,7 +132,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Already have an account?"
+            android:text="@string/already_have_an_account"
             android:textSize="15sp" />
 
         <TextView
